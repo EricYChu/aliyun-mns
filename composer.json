@@ -1,0 +1,30 @@
+{
+    "name": "ericychu/aliyun-mns",
+    "description": "PHP SDK of MNS(Message Service) for Ali Cloud Developer.",
+    "license": "MIT",
+    "homepage": "https://www.aliyun.com",
+    "support": {
+        "issues": "https://github.com/aliyun/aliyun-mns-php-sdk/issues",
+        "source": "https://github.com/aliyun/aliyun-mns-php-sdk"
+    },
+    "authors": [
+        {
+            "name": "Aliyun",
+            "homepage": "https://www.aliyun.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "~6.0",
+        "psr/http-message": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
